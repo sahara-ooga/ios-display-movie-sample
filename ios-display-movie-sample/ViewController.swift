@@ -8,10 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet private weak var playerView: AVPlayerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction private func playButtonTapped(sender: AnyObject) {
+        playerView.playButtonTapped()
     }
 
 

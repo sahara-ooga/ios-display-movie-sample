@@ -16,6 +16,8 @@
 		8C0CADA327EC6F43006C099E /* ios_display_movie_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CADA227EC6F43006C099E /* ios_display_movie_sampleTests.swift */; };
 		8C0CADAD27EC6F43006C099E /* ios_display_movie_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CADAC27EC6F43006C099E /* ios_display_movie_sampleUITests.swift */; };
 		8C0CADAF27EC6F43006C099E /* ios_display_movie_sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CADAE27EC6F43006C099E /* ios_display_movie_sampleUITestsLaunchTests.swift */; };
+		8C0CADBC27EC702A006C099E /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CADBB27EC702A006C099E /* AVPlayerView.swift */; };
+		8C0CADC227EC777A006C099E /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CADC127EC777A006C099E /* PlayerState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8C0CADA827EC6F43006C099E /* ios-display-movie-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-display-movie-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0CADAC27EC6F43006C099E /* ios_display_movie_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_display_movie_sampleUITests.swift; sourceTree = "<group>"; };
 		8C0CADAE27EC6F43006C099E /* ios_display_movie_sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_display_movie_sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C0CADBB27EC702A006C099E /* AVPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
+		8C0CADC127EC777A006C099E /* PlayerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				8C0CAD9427EC6F43006C099E /* Assets.xcassets */,
 				8C0CAD9627EC6F43006C099E /* LaunchScreen.storyboard */,
 				8C0CAD9927EC6F43006C099E /* Info.plist */,
+				8C0CADBB27EC702A006C099E /* AVPlayerView.swift */,
+				8C0CADC127EC777A006C099E /* PlayerState.swift */,
 			);
 			path = "ios-display-movie-sample";
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C0CADC227EC777A006C099E /* PlayerState.swift in Sources */,
+				8C0CADBC27EC702A006C099E /* AVPlayerView.swift in Sources */,
 				8C0CAD9027EC6F36006C099E /* ViewController.swift in Sources */,
 				8C0CAD8C27EC6F36006C099E /* AppDelegate.swift in Sources */,
 				8C0CAD8E27EC6F36006C099E /* SceneDelegate.swift in Sources */,
