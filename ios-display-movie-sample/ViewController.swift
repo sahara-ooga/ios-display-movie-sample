@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     @IBOutlet private weak var playerView: AVPlayerView!
     
     private var player: AVPlayer? {
@@ -28,7 +29,5 @@ class ViewController: UIViewController {
     @IBAction private func playButtonTapped(sender: AnyObject) {
         playerView.playButtonTapped()
     }
-
-
 }
 
