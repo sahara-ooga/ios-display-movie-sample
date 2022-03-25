@@ -16,7 +16,13 @@ class ViewController: UIViewController {
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setUpMovie()
+    }
+    
+    private func setUpMovie() {
+        let path = Bundle.main.path(forResource: "curvy-road-cropped", ofType: "mov")
+        let url = URL(fileURLWithPath: path!)
+        playerView.setMovie(url: url)
     }
     
     @IBAction private func playButtonTapped(sender: AnyObject) {
